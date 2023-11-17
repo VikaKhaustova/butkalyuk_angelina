@@ -304,8 +304,6 @@ main{
 .about-us{
      display: flex;
      flex-wrap: wrap;
-     margin-left: 4vw;
-     margin-right: 4vw;
      justify-content: space-between;
 }
 .about h2{
