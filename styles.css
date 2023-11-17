@@ -169,6 +169,7 @@ main{
     display: flex;
     height: 400px;
     justify-content: space-around;
+    align-items: center;
 }
 .menu-img{
     width: 30%;  
