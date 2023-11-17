@@ -1,0 +1,358 @@
+body {
+    font-family: 'Comfortaa', sans-serif;
+    width: 100%;
+    margin: 0; 
+}
+
+html {
+    zoom: 100%;
+}
+
+.header-img{
+    background-color: #674F4F;
+    height: 350px;
+}
+nav {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    width: 100%; 
+    margin-bottom: 70px;
+    padding-top: 145px;
+}
+
+.nav-link{  
+    text-decoration: none;
+    color: #000;
+    font-size: 35px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    z-index: 1;
+}
+
+header {
+    display: flex;
+    flex-direction: column; 
+    align-items: center;
+    padding-bottom: 40px; 
+}
+
+header img {
+    width: 100%;
+}
+
+.header-img img{
+    position: absolute;
+    top: 0;
+    z-index: 0;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    width: 100%; 
+    margin-bottom: 70px;
+    padding-top: 145px;
+}
+
+.nav-link{  
+    text-decoration: none;
+    color: #000;
+    font-size: 35px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    z-index: 1;
+}
+
+.nav-link:hover{
+    font-weight: 700;
+    color: #ce67a6;
+    font-size: 34px;
+    transition: 0.5s ease-in;
+    text-shadow: 5px 5px black;
+}
+
+main{   
+   width: 100%;  
+}
+
+
+.info{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    margin-top: 250px;
+    padding: 80px;
+}
+
+.info-div{
+    width: 50%;
+}
+.info-div h1{
+    color: #000;
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.info-div p{
+    color: #000;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    width: 90%;
+}
+.info-butt{
+    width: 70%;
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+}
+.call-butt{
+    background-image: url(https://i.ibb.co/SnmxJRw/image.png); 
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 28px;
+    text-decoration: none;
+    color: #FFFFFF;
+    padding: 3% 10%;
+    margin: 5% 5% 5% 0%;
+}
+.call-butt:hover{
+    box-shadow: 5px 5px #000000;
+    border: 1px solid #FFC700;
+    transition: 0.5s ease-out;
+}
+.menu-butt{
+    background-image: url(https://i.ibb.co/0hLc5Qw/image.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.25);
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 28px;
+    text-decoration: none;
+    color: white;
+    padding: 3% 10%;
+    margin: 5% 5% 5% 0%; 
+}
+.menu-butt:hover{
+    box-shadow: 5px 5px #000000;
+    border: 1px solid #FFC700;
+    transition: 0.5s ease-out;
+}
+
+.menu{ 
+    width: 100%;
+}
+
+.menu h2{
+    color: #000;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-align: center;
+}
+.menu-div{
+    margin-left: 80px;
+    margin-top: 15% ;
+    display: flex;
+    height: 400px;
+    justify-content: space-around;
+}
+.menu-img{
+    width: 30%;  
+}
+.menu-info{
+    width: 50%; 
+}
+.menu-info h3{
+    color: #CE67A6;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.menu-text{
+    width: 80%;
+    color: #000;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.all-rows{
+    display: flex;
+    flex-direction: column;
+}
+
+.first-row{
+    display: flex;   
+}
+
+.second-row{
+    display: flex;   
+}
+
+.third-row{
+    display: flex;   
+}
+
+.sallary{
+    color: #000;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    height: 40px;
+}
+
+.menu-info-content{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.menu-all-text{
+    display: flex;
+    flex-direction: column;
+}
+
+.all-sallary{
+    display: flex;
+    flex-direction: column;
+
+}
+
+.menu-text-two{
+    color: #000;
+    height: 40px;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.menu-text-three{
+    color: #000;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.sale{
+
+    margin-top: 200px;
+    width: 100%;
+    height: 407px;
+   
+}
+
+.sale h2{
+    text-align: center;
+    color: #000;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.sale-divs{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.sale-div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.sale-img{
+    width: 190px;
+    height: 190px;
+    padding: 3% 5%;  
+}
+
+.sale-div p{
+    color: #000;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: italic;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.about{
+    width: 100%;
+    margin-top: 200px;
+
+}
+.about-us{
+     display: flex;
+     flex-wrap: wrap;
+     margin-left: 4vw;
+     margin-right: 4vw;
+     justify-content: space-between;
+}
+.about h2{
+    color: #000;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-align: center;
+}
+
+.about-div{
+    color: #000;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 200;
+    line-height: normal; 
+    width: 70%;
+}
+
+footer{
+    width: 100%;
+    margin-top: 200px;
+    padding-bottom: 50px;
+    height: 500px;
+    display: flex;
+    background-repeat: no-repeat;
+    background-size: cover;
+    justify-content: space-around;
+    background-image: url(https://i.ibb.co/fngXLH7/image-2.png);
+}
+
+.footer-info h4{
+    color: #000;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+.footer-info p{
+    color: #000;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.logo-img{
+
+    margin-top:8%;
+    width: 30%;
+}
